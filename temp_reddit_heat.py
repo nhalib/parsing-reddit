@@ -129,7 +129,7 @@ def daily_reddit_heat_routine():
     if len(stocks) == 0:
         end_stat = 9999
 
-    f = open('flags/reddit_flag.txt','w',newline='\n')
+    f = open('reddit_flag.txt','w',newline='\n')
     f.write(str(end_stat))
     f.write('\n')
     f.close()
