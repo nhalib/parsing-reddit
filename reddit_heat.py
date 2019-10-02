@@ -117,7 +117,7 @@ def temp_operation():
 
 
 def daily_reddit_heat_routine():
-    f = open('flags/reddit_flag.txt')
+    f = open('reddit_flag.txt')
     for line in f:
         start_pt = int(line.rstrip())
     f.close()
